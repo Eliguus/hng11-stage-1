@@ -1,0 +1,92 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #f5f5f5;
+  }
+  
+  .container {
+    width: 90%;
+    max-width: 1000px;
+    margin: auto;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+  }
+  
+  header {
+    text-align: center;
+    margin-bottom: 40px;
+    color: #333;
+    font-size: 2rem; 
+  }
+  
+  .profile {
+    display: flex;
+    align-items: center;
+    margin-bottom: 40px;
+    padding: 15px; 
+    border-radius: 5px; 
+    background-color: #f0f0f0; 
+  }
+  
+  .profile img {
+    margin-right: 20px;
+  }
+  
+  .profile .info {
+    font-size: 16px;
+    color: #666;
+  }
+  
+  .content {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  .goals-list, .links-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .goals-list li, .links-list li {
+    margin-bottom: 10px;
+    font-size: 16px;
+    line-height: 1.5; 
+  }
+  
+  h2 {
+    margin-bottom: 10px;
+    color: #333;
+    font-size: 1.2rem; 
+  }
+  
+  .goals-list li,
+  .links-list li a {
+    color: #333;
+  }
+  
+  .links-list li a:hover {
+    color: #007bff;
+  }
+  
+  @media (max-width: 768px) {
+    .profile {
+      flex-direction: column;
+      text-align: center;
+      padding: 20px;
+    }
+  
+    .profile img {
+      margin-bottom: 20px;
+    }
+  
+    .content {
+      flex-direction: column;
+    }
+  }
+  
